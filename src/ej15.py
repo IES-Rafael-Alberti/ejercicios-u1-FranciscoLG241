@@ -1,0 +1,11 @@
+capital = float(input("Introduce la cantidad de dinero despositada en tu cuenta de ahorros: "))
+i = 4
+capital = capital * (1 + i/100)
+capital = round(capital,2)
+print(f"La cantidad de ahorro tras el primer año es de {capital}")
+capital = capital * (1 + i/100)
+capital = round(capital,2)
+print(f"La cantidad de ahorro tras el segundo año es de {capital}")
+capital = capital * (1 + i/100)
+capital = round(capital,2)
+print(f"La cantidad de ahorro tras el tercer año es de {capital}")
